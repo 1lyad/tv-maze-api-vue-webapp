@@ -73,20 +73,14 @@ Haven't tested on other versions.
 1. **Clone** the repository:
 
    ```bash
-   git clone https://github.com/your-username/tv-shows-dashboard.git
-   cd tv-shows-dashboard
+   git clone https://github.com/1lyad/tv-maze-api-vue-webapp.git
+   cd tv-maze-api-vue-webapp
    ```
 
 2. **Install** dependencies:
 
    ```bash
    npm install
-   ```
-
-   or
-
-   ```bash
-   yarn
    ```
 
 ### Running the App
