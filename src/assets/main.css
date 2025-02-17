@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/jura';
+
+@theme {
+  --color-primary-50: #f2fee7;
+  --color-primary-100: #e1fdca;
+  --color-primary-200: #bafa89;
+  --color-primary-300: #9ff561;
+  --color-primary-400: #7ce932;
+  --color-primary-500: #5bd012;
+  --color-primary-600: #44a60a;
+  --color-primary-700: #347e0d;
+  --color-primary-800: #2d6410;
+  --color-primary-900: #285413;
+  --color-primary-950: #112f04;
+  --font-primary: 'Jura Variable', serif;
+}
+* {
+  @apply outline-primary-500;
+}
+html {
+  @apply bg-primary-50 font-primary bg-[url(/images/bg.svg)] bg-[auto_350px] bg-repeat text-base text-gray-900;
+}
+
+body {
+  background-attachment: fixed; /* Fixes the background image */
+  background-size: cover; /* Ensures the background covers the entire viewport */
+}
+
+.router-link-active,
+.router-link-exact-active {
+  @apply text-primary-300;
+}
