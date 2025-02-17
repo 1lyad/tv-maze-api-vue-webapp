@@ -28,11 +28,6 @@ jobs:
       - name: Build app
         run: npm run build
 
-      - name: Start preview server
-        run: |
-          nohup npm run preview &
-          npx wait-on http://localhost:4173
-
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
